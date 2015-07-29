@@ -4,11 +4,8 @@ function multiples(size) {
     sum = 0;
     for (i=0; i<size; i++) {
         if ((i % 3 == 0) || (i % 5 == 0)){
-            console.log(i, "fits!");
+
             sum += i;
-        } else {
-            console.log(i, "does not fit!")
-        };
     };
     
     return sum;
