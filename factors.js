@@ -15,6 +15,10 @@ var largestPrime = function(n) {
     
     In case none of the factors resulting from Math.floor(n/i) are prime, the factor i  
     (going from i -> sqrt(n) will be saved to an array and evaluated.)
+
+    Credit goes to user agf on Stack Overflow for the bulk of this algorithm.
+
+    https://stackoverflow.com/questions/6800193/what-is-the-most-efficient-way-of-finding-all-the-factors-of-a-number-in-python
     */
     
     smallers = []
