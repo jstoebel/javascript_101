@@ -47,5 +47,5 @@ var largestPrime = function(n) {
     return -1;
 }
 
-largestPrime(600851475143)
+largestPrime(600851475143);
 
